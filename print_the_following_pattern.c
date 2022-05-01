@@ -2,16 +2,13 @@
 int main()
 {
     int i,j,n;
+    char a='A';
     scanf("%d",&n);
-    for(i=1;i<=n;i++)
+    for(i=0;i<n;i++)
     {
-        for(int k=1;k<=n-i;k++)
+        for(j=1;j<=n;j++)
         {
-            printf(" ");
-        }
-        for(j=1;j<=(2*i-1);j++)
-        {
-            printf("%d",i);
+            printf("%c ",a+i);
         }
         printf("
 ");
