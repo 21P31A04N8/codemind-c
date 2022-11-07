@@ -25,8 +25,6 @@ cnt=0
 for i in range(0,n):
     if x==i:
         cnt+=1
-        print(1)
-if cnt==0:
-    print(0)
+print(cnt)
     
 ***/
